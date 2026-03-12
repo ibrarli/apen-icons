@@ -19,7 +19,7 @@
   "scripts": {
     "dev": "vite website --open",
     "build:lib": "vite build",
-    "build:website": "cd website && npm run build",
+    "build:website": "cd website && npm install && npm run build",
     "build": "npm run build:lib && npm run build:website",
     "lint": "eslint .",
     "preview": "vite preview website"

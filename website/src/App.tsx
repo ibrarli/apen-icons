@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import IconGallery from './pages/IconGallery';
@@ -16,7 +15,7 @@ const App = () => {
             <div className="space-x-8 text-sm font-medium">
               <Link to="/" className="text-slate-600 hover:text-blue-600">Home</Link>
               <Link to="/icons" className="text-slate-600 hover:text-blue-600">Icons</Link>
-              <a href="https://github.com/your-repo" className="text-slate-600 hover:text-blue-600">GitHub</a>
+              <a href="https://github.com/ibrarli/apen-icons" className="text-slate-600 hover:text-blue-600">GitHub</a>
             </div>
           </div>
         </nav>
